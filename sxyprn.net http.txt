@@ -1,401 +1,401 @@
 #http
 
-cnfqws --hostcase
-cnfqws --hostspell=hoSt
-cnfqws --hostnospace
-cnfqws --methodeol
-cnfqws --dpi-desync=multisplit --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=multisplit --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=multisplit --dpi-desync-split-pos=method+2,midsld
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-fooling=badsum
-cnfqws --dpi-desync=fake --dpi-desync-fooling=badsum --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-fooling=badseq --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-fooling=datanoack --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-fooling=ts
-cnfqws --dpi-desync=fake --dpi-desync-fooling=ts --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig
-cnfqws --dpi-desync=fake --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=datanoack --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=datanoack --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=datanoack --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=datanoack --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badseq --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badseq --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=datanoack --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=datanoack --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badsum
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badsum --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badsum --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badsum --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badseq
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badseq --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=datanoack
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=datanoack --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=datanoack --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=datanoack --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=ts
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=md5sig
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=md5sig --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=md5sig --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=badsum
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=badsum --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=badsum --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=badsum --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=datanoack --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=ts
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=ts --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=md5sig --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=4 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=4 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=datanoack --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=datanoack --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=datanoack --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=datanoack --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=datanoack --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=datanoack --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld--dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=badsum --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=badseq --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=badseq --dpi-desync-badseq-increment=0 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=ts --dpi-desync-split-pos=midsld--dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-fooling=md5sig --dup=1 --dup-cutoff=n2 --dup-fooling=md5sig --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-4
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakedsplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakedsplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakedsplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multisplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --orig-autottl=+2 --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakedsplit --orig-autottl=+2 --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakedsplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=hostfakesplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-3
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --orig-autottl=+2 --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-hostfakesplit-mod=altorder=1 --dpi-desync-hostfakesplit-midhost=midsld
-cnfqws --dpi-desync=fake,hostfakesplit --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-3
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fakeddisorder --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fakeddisorder --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fake-http=0x00000000
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,multidisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-cutoff=d1 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-split-pos=midsld
-cnfqws --dpi-desync=fake,fakeddisorder --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-3 --dpi-desync-split-pos=midsld --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-4 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=fake,fakeddisorder --orig-autottl=+3 --dpi-desync-ttl=1 --dpi-desync-autottl=-5 --dpi-desync-split-pos=method+2 --dpi-desync-fakedsplit-mod=altorder=1
-cnfqws --dpi-desync=syndata
-cnfqws --dpi-desync=syndata,multisplit --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=syndata,multidisorder --dpi-desync-split-pos=method+2
-cnfqws --dpi-desync=syndata,multidisorder --dpi-desync-split-pos=midsld
+nfqws --hostase
+nfqws --hostspell=hoSt
+nfqws --hostnospae
+nfqws --methodeol
+nfqws --dpi-desyn=multisplit --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=multisplit --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=multisplit --dpi-desyn-split-pos=method+2,midsld
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=badsum
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=badsum --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=badseq --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=datanoak --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=ts
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=ts --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig
+nfqws --dpi-desyn=fake --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badseq --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badseq --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badsum
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badsum --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badsum --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badsum --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badseq
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badseq --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=datanoak
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=datanoak --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=datanoak --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=datanoak --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=ts
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=ts --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=ts --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=ts --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=md5sig
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=md5sig --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=md5sig --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=badsum
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=badsum --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=badsum --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=badsum --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=datanoak --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=ts
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=ts --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=ts --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=ts --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=md5sig --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=4 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=4 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=datanoak --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld--dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=badsum --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=badseq --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=badseq --dpi-desyn-badseq-inrement=0 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=ts --dpi-desyn-split-pos=midsld--dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-fooling=md5sig --dup=1 --dup-utoff=n2 --dup-fooling=md5sig --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakedsplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakedsplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakedsplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multisplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --orig-autottl=+2 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakedsplit --orig-autottl=+2 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakedsplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=hostfakesplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --orig-autottl=+2 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-hostfakesplit-mod=altorder=1 --dpi-desyn-hostfakesplit-midhost=midsld
+nfqws --dpi-desyn=fake,hostfakesplit --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fakeddisorder --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fakeddisorder --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fake-http=0x00000000
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,multidisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-1 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-2 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --orig-ttl=1 --orig-mod-start=s1 --orig-mod-utoff=d1 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-split-pos=midsld
+nfqws --dpi-desyn=fake,fakeddisorder --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-3 --dpi-desyn-split-pos=midsld --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-4 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=fake,fakeddisorder --orig-autottl=+3 --dpi-desyn-ttl=1 --dpi-desyn-autottl=-5 --dpi-desyn-split-pos=method+2 --dpi-desyn-fakedsplit-mod=altorder=1
+nfqws --dpi-desyn=syndata
+nfqws --dpi-desyn=syndata,multisplit --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=syndata,multidisorder --dpi-desyn-split-pos=method+2
+nfqws --dpi-desyn=syndata,multidisorder --dpi-desyn-split-pos=midsld
