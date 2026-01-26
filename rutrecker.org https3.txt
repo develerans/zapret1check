@@ -1,7 +1,0 @@
-#http3
-
-nfqws --dpi-desync=fake --dpi-desync-fake-quic=/opt/zapret/files/fake/quic_initial_www_google_com.bin
-nfqws --dpi-desync=fake --dpi-desync-fake-quic=/opt/zapret/files/fake/quic_initial_www_google_com.bin --dpi-desync-repeats=2
-nfqws --dpi-desync=fake --dpi-desync-fake-quic=/opt/zapret/files/fake/quic_initial_www_google_com.bin --dpi-desync-repeats=5
-nfqws --dpi-desync=fake --dpi-desync-fake-quic=/opt/zapret/files/fake/quic_initial_www_google_com.bin --dpi-desync-repeats=10
-nfqws --dpi-desync=fake --dpi-desync-fake-quic=/opt/zapret/files/fake/quic_initial_www_google_com.bin --dpi-desync-repeats=20
